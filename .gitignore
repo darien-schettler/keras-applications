@@ -1,3 +1,4 @@
+# Other
 *.DS_Store
 *.pyc
 temp/*
@@ -5,8 +6,39 @@ dist/*
 build/*
 tags
 Keras_Applications.egg-info
+.env
 
 # test-related
 .coverage
 .cache
 .pytest_cache
+
+# Compiled python modules and cython related stuff
+*.c
+*.so
+
+# Ignore model files
+*.hd5f
+*.h5
+
+# Byte-compiled
+__pycache__/
+_pycache__/
+.cache/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+.eggs/
+
+# PyPI distribution artifacts.
+build/
+dist/
+
+# PyCharm
+.idea
+
+# Troubleshooting Files & Folders
+/archive/*
+*.ipynb_checkpoints
+*.ipynb
+
