@@ -64,3 +64,4 @@ from . import resnet
 from . import resnet_v2
 from . import resnext
 from . import efficientnet
+from . import darknet53
